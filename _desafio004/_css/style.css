@@ -3,23 +3,15 @@
 
 body {
     font-family: 'Oswald', sans-serif;
-    background-color: rgb(74, 74, 74); 
+    background-color:rgb(255, 255, 255);
     text-transform: uppercase;
     
 }
 
-header {
-    font-size: 30pt;
-    text-align: center;
-    padding: 15px;
-    border-bottom: 3px solid rgb(255, 255, 255);
-
-}
 
  li  {
-    
+    background-color: rgb(74, 74, 74); 
     font-size: 20pt;
-    border-bottom: 3px solid rgb(255, 255, 255);
     padding: 60px 60px 60px 100px;      
     margin-bottom: 3px;  /*damos este espaço de 3px e junto com border-bottom demos um acabamento*/
     background-image: url('../_imagens/done_1.png'); /*add uma imagem na opção de ICONE com este parametro*/
@@ -49,19 +41,20 @@ a {
     background-color: rgb(87, 190, 95);
 }
 footer#rodape {
-        margin: 0px auto 0 auto;        
-        padding: 10px;
-        color: rgba(255, 255, 255, .4);
-        text-shadow: 2px 2px 2px rgb(0, 0, 0);
+        background-color: rgb(74, 74, 74); 
+        margin: 0px;       
+        padding: 30px;
+        color: rgba(0,0,0,1);
+        text-shadow: 1px 1px 2px rgb(255,255,255);
         text-align: center;   
-        font-size: 9pt;
-        letter-spacing: 2.0;
+        font-size: 8pt;
+        letter-spacing: 3px;       
     }
 a.rodape2 {
         text-decoration: none;
         text-shadow: none;
         color: rgba(255, 255, 255, .5);
-        background-image: none;
+        background-image: none;      
         
     }
 footer#rodape :hover {
