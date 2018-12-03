@@ -1,0 +1,54 @@
+@charset "UTF8";
+@import URL('https://fonts.googleapis.com/css?family=Roboto'); 
+
+
+
+div#corpo {
+    text-align: center;
+    background-image: url("../_imagens/fundo4.jpg") ;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+h1 a {
+    display: block;  
+    width: 100%;
+    position: relative;
+    top: 200px;
+    font-family: roboto, sans-serif;
+    font-size: 25pt;
+    color: rgba(0, 0, 255, 5);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+     
+   
+    }
+h1 a:hover  {
+    color: rgb(226, 19, 19);
+    text-decoration: underline;
+    text-transform: uppercase; 
+    font-family: roboto, sans-serif;
+    font-size: 25pt;
+}
+
+footer#rodape {
+    margin: 430px auto auto auto;
+    border-top: 1px solid rgba(255, 255, 255, .5);
+    padding: 0px;
+    color: rgba(255, 255, 255, .4);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);    
+}
+footer#rodape a {
+    text-decoration: none;
+    text-shadow: none;
+    color: rgba(255, 255, 255, .5);
+}
+footer#rodape :hover {
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+}
+

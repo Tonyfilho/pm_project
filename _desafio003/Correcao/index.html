@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Desafio 3 Correção do Harlley</title>
+    <link rel="stylesheet" href="_css/nomalize.css">
+    <link rel="stylesheet" href="_css/style.css">
+    <script  src="_js/" ></script>
+
+</head>
+<body>
+  <div id="corpo">
+    <img src="_imagens/logo.png" alt="Logo de Autentificação">
+    <form  name="tela_de_login" action="_js/run.js"  method="POST" accept-charset="UTF-8"  > <!--tag FORM
+    p/ criar formulários NAME nome do formulário ACTION link do arquivo que processará  o formulário METHOD
+    tipo de metado de envio do formulário ACCEPT-CHARSET conf. caracteres especiais no formulário-->
+      <div class="email">
+      <input type="email" name="campo_de_email" id="email" placeholder="Type your email" required > <!--
+        tag INPUT faz cx de entrada de dados, parametros: TYPE=EMAIL diz que o tipo de entrada NAME é PARAMETRO
+        de identificação de dados no servidor ou no bc de dados ID é usado para conf. no css PLACEHOLDER é p/
+        escrever dentro da cx as informações de preenchimento REQUIRED é o parametro que obriga o preenchimento
+        deste campo --> 
+      </div>
+
+      <div>
+      <input type="password" name="campo_de_senha" id="password" placeholder="Type your password"  required>  <!--
+        tag INPUT faz cx de entrada de dados, parametros: TYPE=PASSWORD diz que o tipo de entrada senha que não permite
+        que seja visto as  informações  --> 
+      </div>
+
+      <div class="recoved"> 
+        <button>Login</button> <br/> <!--tag INPUT do TYPE=BUTTON cria um botão de enviar o paramentro VALEU
+        permite escrever a informação dentro do botão-->
+        <a href="password.html" >Recover Password</a>
+      </div>    
+    
+    </form>
+  </div>
+  <footer>
+    <p>By Tony Filho </p>
+
+
+  </footer>    
+</body>
+</html>

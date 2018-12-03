@@ -1,0 +1,71 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css?family=Oswald:500'); 
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(74, 74, 74); 
+    text-transform: uppercase;
+    
+}
+
+header {
+    font-size: 30pt;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+
+}
+
+ li  {
+    
+    font-size: 20pt;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    padding: 60px 60px 60px 100px;      
+    margin-bottom: 3px;  /*damos este espaço de 3px e junto com border-bottom demos um acabamento*/
+    background-image: url('../_imagens/done_1.png'); /*add uma imagem na opção de ICONE com este parametro*/
+    background-repeat: no-repeat; /* aqui no CSS usa-se este paramentro, já no html usa-se somente o no-repeat*/
+    background-position: 30px center; /*centraliza as imagens dando 2 conf. vertical e horizontal*/      
+    }
+
+li:hover {
+    background-color: rgb(110, 110, 110);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-image: url('../_imagens/arrow_right.png');
+    background-repeat: no-repeat;
+    display: block; /*colocamos aqui este paramentro para poder mover i IMG do A , pois todo A somente aceita mov em linha com este paramentro conseguiremos usar o BACKGROUD-POSITION */
+    background-position: 300px center; 
+}
+
+.done {
+    background-color: rgb(39, 174, 96);
+    background-image: url('../_imagens/done_2.png');
+}
+
+.done:hover {
+    background-color: rgb(87, 190, 95);
+}
+footer#rodape {
+        margin: 0px auto 0 auto;        
+        padding: 10px;
+        color: rgba(255, 255, 255, .4);
+        text-shadow: 2px 2px 2px rgb(0, 0, 0);
+        text-align: center;   
+        font-size: 9pt;
+        letter-spacing: 2.0;
+    }
+a.rodape2 {
+        text-decoration: none;
+        text-shadow: none;
+        color: rgba(255, 255, 255, .5);
+        background-image: none;
+        
+    }
+footer#rodape :hover {
+        color: rgb(0, 0, 0);
+        text-shadow: none;
+    }
+    

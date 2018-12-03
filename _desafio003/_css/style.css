@@ -1,0 +1,79 @@
+@charset "UTF8";
+@import URL('https://fonts.googleapis.com/css?family=Roboto'); 
+
+body {
+    background-color: rgb(209, 207, 214);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    width: auto;
+    height: auto;
+}
+div#corpo {
+    background-color: rgb(116, 92, 193);
+    width: 375px;
+    height: 667px;
+    margin: 0 auto 0 auto;
+
+}
+
+img#logo {
+    display: block;
+    position: relative;
+    top: 80px;
+    bottom: 516px;
+    left: 130.5px;
+
+}
+
+div.name {
+    display: block;
+    position: relative;
+    top: 120px;
+    bottom: 450px;
+    left: 90px;
+    
+}
+div.password {
+    display: block;
+    position: relative;
+    top: 140px;
+    bottom: 450px;
+    left: 90px ;
+}
+div.botao {
+    display: block;
+    position: relative;
+    top: 160px;
+    bottom: 450px;
+    left: 150px ;
+    padding: 0px;
+}
+h3.link {
+    display: block;
+    position: relative;
+    text-align: justify;
+    top: 10px;
+    right: 40px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);    
+}
+div.botao2 { /*It belong the recover.html*/
+    display: block;
+    position: relative;
+    top: 150px;
+    bottom: 450px;
+    left: 140px ;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+h3.link2 {  /*It belong the recover.html*/
+    display: block;
+    position: relative;
+    text-align: justify;
+    top: 10px;
+    right: 40px;
+    font-size: 14px;
+    color: rgb(255, 255, 255);    
+
+}

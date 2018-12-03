@@ -1,0 +1,64 @@
+/* Css do arquivo Desafio01*/
+
+@charset "UTF-8";
+
+/*Conf. do Body pela  tag DIV */
+
+* {     /* Zeramos aqui todas margens e distância da pagina html padrão*/ 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ecf0f1;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+    width: auto;
+    height: auto;
+    margin: -28px auto auto auto;
+}
+
+div#interface {
+    display: block;
+    margin-top: 80px;   
+
+}
+header#titulo {
+    text-align: center;
+
+}
+header#titulo h1 {
+    font-size: 40px;
+    text-shadow: 3px 3px 3px rgba(155, 89, 182, .7);
+    padding: 0px;
+    margin-bottom: 0px;
+    
+}
+header#titulo h2 {
+    font-size: 25px;
+    text-shadow: 3px 3px 3px rgba(155, 89, 182, .7);
+    padding: 0px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+hgroup.lista li {
+    background-color: rgba(155, 89, 182, .1);
+    margin: 12px;
+    padding: 12px;
+    list-style: none;
+    text-indent: 5px;
+}
+footer#rodape {
+
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;       
+}
+footer#rodape h1 {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+footer#rodape h2 {
+    font-size: 10px;
+}
