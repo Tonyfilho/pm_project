@@ -1,0 +1,94 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css?family=Oswald:500'); 
+                        /*  AREA DE TESTES */
+        * {
+            text-align: justify;
+        }
+                
+                        h1 {
+                            font-family: 'Oswald'sans-serif;
+                            font-size: 20pt;
+                            text-align: center;                            
+                            text-transform: uppercase;
+                            padding: 5px;
+                           }
+                       
+                       
+                        .static {
+                            position: static;
+                        }
+                              /* RELATIVE */
+
+                       .relative1 {
+                            position: relative;
+                            margin-bottom: 25px;
+                            background-color: aqua;
+
+                              }
+                        .relative2 {
+                           position: relative;
+                           top: -20px;
+                           left: 20px;
+                           background-color: yellow;
+                           width: 500px;
+                        
+                        }
+                                /*FIXED  */
+                        
+                        .fixed {
+                          position: fixed;
+                          bottom: 0;
+                          right: 0;
+                          width: 200px;
+                          background-color: blue;
+                                  }
+                    
+                                    /* ABSOLUTE */
+                        
+                        .relative {
+                          position: relative;
+                          width: 600px;
+                          height: 400px;
+                                      }
+                        .absolute {
+                          position: absolute;
+                          top: 120px;
+                          right: 0;
+                          width: 300px;
+                          height: 200px;
+                                      }
+
+                        
+
+
+
+
+
+
+
+
+
+                         /*  AREA DO RODAPE */
+footer#rodape {
+        background-color: rgb(74, 74, 74); 
+        margin: 0px;       
+        padding: 30px;
+        color: rgba(0,0,0,1);
+        text-shadow: 1px 1px 2px rgb(255,255,255);
+        text-align: center;   
+        font-size: 8pt;
+        letter-spacing: 3px;    
+        clear: both;   
+    }
+a.rodape2 {
+        text-decoration: none;
+        text-shadow: none;
+        color: rgba(255, 255, 255, .5);
+        background-image: none;      
+        
+    }
+footer#rodape :hover {
+        color: rgb(0, 0, 0);
+        text-shadow: none;
+    }
+    
