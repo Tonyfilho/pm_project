@@ -1,0 +1,62 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css?family=Oswald:500'); 
+
+body {
+    
+        margin: 0;
+        padding: 0 0 1em 0;
+        font-size: 1em;
+        line-height: 1.5em;
+        color: #414142;
+        font-family: Arial;
+        background-color: #ededed;
+        text-align: center;
+    }
+h2 {
+    color: red;
+    font: bolder;
+}
+
+    .simple {
+        width: 500px;
+        margin: 20px auto;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+      }
+      
+      .fancy {
+        width: 500px;
+        margin: 20px auto;
+        padding: 50px;
+        border: solid blue 10px;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+      }
+
+
+ 
+
+footer#rodape {
+        background-color: rgb(74, 74, 74); 
+        margin: 0px;       
+        padding: 30px;
+        color: rgba(0,0,0,1);
+        text-shadow: 1px 1px 2px rgb(255,255,255);
+        text-align: center;   
+        font-size: 8pt;
+        letter-spacing: 3px;       
+    }
+a.rodape2 {
+        text-decoration: none;
+        text-shadow: none;
+        color: rgba(255, 255, 255, .5);
+        background-image: none;      
+        
+    }
+footer#rodape :hover {
+        color: rgb(0, 0, 0);
+        text-shadow: none;
+    }
+    
