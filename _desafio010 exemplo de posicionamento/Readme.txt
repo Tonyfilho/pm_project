@@ -9,3 +9,30 @@ Este exemplo funciona porque o recipiente é mais alto que a nav. Caso não foss
 
 
 OBS: Se utilizas um cabeçalho fixo ou rodapé, assegura-te que existe espaço para o mesmo! Eu coloco uma margin-bottom no body.
+
+
+                         exemplo de configuração do CSS  agradável onde se minimiza ou redimenciona a pagina e ela se comporta bem:
+
+ .container {
+  position: relative;
+}
+nav {
+  position: absolute;
+  left: 0px;
+  width: 200px;
+}
+section {
+  /* position is static by default */
+  margin-left: 200px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+body {
+  margin-bottom: 120px;
+}
