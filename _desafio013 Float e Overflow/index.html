@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index Portifólio</title>
+    <!-- <link rel="stylesheet" href="_css/reset.css"> -->
+    <link rel="stylesheet" href="_css/style.css">
+    <script  src="_js/" ></script>
+
+</head>
+
+<body>    
+  <div id="corpo">  
+                                     <a href="http://pt-pt.learnlayout.com/clearfix.html"> <h1>Overflow</h1></a>
+             <h1>o hack do clearfix </h1> 
+              <p>Aqui está uma coisa estranha, má que pode ocorrer quando se utilizam flutuadores:</p>
+
+              <div class="porquinho">
+                <p><img src="_imagens/poquinhodaindia.png" alt="Imagem de um porquinho da India">Uh oh... esta imagem é mais alta que o elemento que a contem, e está a flutuar, então está a sair para fora do seu recipiente!</p>
+              </div>
+              <p>Boo. Existe uma maneira de corrigir isto, mas é feia. Chama-se clearfix hack.</p>
+
+               <span>Vamos tentar adicionar este novo CSS:</span> 
+               <div class="melhor">
+                 <p>.porquinho2 { <br>
+                    overflow: auto;<br>
+                  }</p>  
+               </div>              
+
+                <span>Agora vamos ver o que acontece:</span>
+              <div class="porquinho2">
+                <p><img src="_imagens/poquinhodaindia.png" alt="Imagem de um porquinho da India">Muito melhor!</p>
+              </div>
+              <span>Isto funciona com browsers modernos. Se quiseres suportar IE6, vais querer adicionar o seguinte:</span>
+              <div class="melhor2">
+                <p>.clearfix { <br>
+                    overflow: auto; <br>
+                    zoom: 1; <br>
+                  }</p>  
+              </div>
+
+        
+                     <!-- DIVISÃO DO RODAPÉ -->
+       <footer id="rodape">
+        <p >By: Tony Filho &copy; <br/><a class="rodape2" href="http://www.gmail.com" target="_blank"><br/> oficinadosdrones@gmail.com</a> <br/> Whatapp: 0-351-918203784 </p>
+      </footer>
+</div>    
+</body>
+</html>
