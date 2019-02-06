@@ -12,46 +12,38 @@ h1 {
 }
 p {
         text-align: center;
-        text-transform: uppercase;
-        text-decoration: underline;
+      
 }
-.box {
-    border: 1px solid rebeccapurple;
-    float: left;
-    width: 200px;
-    height: 150px;
-    margin: 1em;
+a:link {  /*tirando o SUBLINHADO do link*/
+    text-decoration:none;
+    }
+    a:visited {
+    text-decoration:none;
+    }
+    a:hover {
+    text-decoration:underline;
+    }
+.titulo {
+       text-transform: uppercase;
+}
+.flutuadores  {
+       font-size: 18pt;
+}
+.exemplo {
     background-color: black;
+    width: 40%;
+    border-radius: 10px;
     color: azure;
-}
-.afterBox {
-    border: 2px dotted red;
-    margin-bottom: 150px;
-    background-color: blueviolet;
-    color: azure;
+    padding: 15px;
+    display: flex;
+    margin-left: 30%;
 
 }
-.box1 {
-    border: 3px dotted rebeccapurple;
-    float: left;
-    width: 200px;
-    height: 100px;
-    margin: 1em;
-    line-height: 100px; /*colocamos os texto alinhado com a tamanho da CX*/
-    text-align: center;
-    background-color: black;
-    color: azure;
-    margin-top: 120px;
+.porquinho {
+    width: 15%;
+    border: 2px solid black;
 }
-.afterBox1 {
-    clear: both;
-    background-color: blue;
-    color: red;
-    padding: 25px;
-}
-
-
- 
+      
                     
 
                          /*  AREA DO RODAPE */

@@ -13,11 +13,19 @@
 
 <body>    
   <div id="corpo">  
-                                     <a href="http://pt-pt.learnlayout.com/clearfix.html"> <h1>Overflow</h1></a>
+                                     <a href="http://pt-pt.learnlayout.com/clearfix.html" target="_blank"> <h1 class="titulo">Overflow</h1></a>
              <h1>o hack do clearfix </h1> 
-              <p>Aqui está uma coisa estranha, má que pode ocorrer quando se utilizam flutuadores:</p>
-
+             <div class="flutuadores">
+                <p>Aqui está uma coisa estranha, mas que pode ocorrer quando se utilizam flutuadores:</p>
+                <div class="exemplo">
+                    img { <br>
+                      float: right; <br>
+                    }
+                </div>
+             </div>
+            
               <div class="porquinho">
+                
                 <p><img src="_imagens/poquinhodaindia.png" alt="Imagem de um porquinho da India">Uh oh... esta imagem é mais alta que o elemento que a contem, e está a flutuar, então está a sair para fora do seu recipiente!</p>
               </div>
               <p>Boo. Existe uma maneira de corrigir isto, mas é feia. Chama-se clearfix hack.</p>
@@ -39,7 +47,11 @@
                     overflow: auto; <br>
                     zoom: 1; <br>
                   }</p>  
+
               </div>
+              <p>Existem browsers exóticos que podem necessitar atenção extra. O mundo de clearfixing é bastante assustador, mas esta solução simples funcionará para a grande maioria dos browsers de hoje em dia.</p>
+
+              <div class="botao"><button>Anterior</button><button>Próximo</button></div>
 
         
                      <!-- DIVISÃO DO RODAPÉ -->
