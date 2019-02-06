@@ -7,14 +7,21 @@
          box-sizing: border-box;
          
      }  
+     /*Conf. todos os H1*/
 h1 {
     text-align: center;
 }
-p {
+    /* Conf. todos os Paragrafos */
+p  {
         text-align: center;
-      
+        font-size: 13pt;      
 }
-a:link {  /*tirando o SUBLINHADO do link*/
+   /*  Conf. todos os Spans */
+span {
+    font-size: 13pt;      
+}
+     /*tirando o SUBLINHADO do link*/
+a:link { 
     text-decoration:none;
     }
     a:visited {
@@ -23,11 +30,16 @@ a:link {  /*tirando o SUBLINHADO do link*/
     a:hover {
     text-decoration:underline;
     }
+    /* Conf. Todas as classes a parti daqui */
 .titulo {
        text-transform: uppercase;
 }
 .flutuadores  {
-       font-size: 18pt;
+       font-size: 13pt;
+       width: 40%;
+       display: flex;
+       margin-left: 30%;
+       
 }
 .exemplo {
     background-color: black;
@@ -37,12 +49,38 @@ a:link {  /*tirando o SUBLINHADO do link*/
     padding: 15px;
     display: flex;
     margin-left: 30%;
+    border: 3px solid rgba(255, 255, 255, .5);
 
 }
 .porquinho {
-    width: 15%;
+    width: 40%;
     border: 2px solid black;
+    display: flex;
+    margin-left: 30%;
+    margin-top: 20px;
+    padding: 15px;
 }
+.img_porquinho { 
+    float: right; 
+    }
+.exemplo_melhor {
+    background-color: black;
+    width: 40%;
+    border-radius: 10px;
+    color: azure;
+    padding: 15px;
+    display: flex;
+    margin-left: 30%;
+    border: 3px solid rgba(255, 255, 255, .5);
+
+}
+.span2 {
+    text-align: left;
+    margin-left: 30%;
+    
+}
+
+
       
                     
 

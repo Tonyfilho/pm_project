@@ -17,27 +17,28 @@
              <h1>o hack do clearfix </h1> 
              <div class="flutuadores">
                 <p>Aqui está uma coisa estranha, mas que pode ocorrer quando se utilizam flutuadores:</p>
-                <div class="exemplo">
-                    img { <br>
-                      float: right; <br>
-                    }
-                </div>
+                
              </div>
+             <div class="exemplo">
+              img { <br>
+                float: right; <br>
+              }
+              </div>
             
               <div class="porquinho">
                 
-                <p><img src="_imagens/poquinhodaindia.png" alt="Imagem de um porquinho da India">Uh oh... esta imagem é mais alta que o elemento que a contem, e está a flutuar, então está a sair para fora do seu recipiente!</p>
+                <p><img src="_imagens/poquinhodaindia.png" alt="Imagem de um porquinho da India" class="img_porquinho">Uh oh... esta imagem é mais alta que o elemento que a contem, e está a flutuar, então está a sair para fora do seu recipiente!</p>
               </div>
-              <p>Boo. Existe uma maneira de corrigir isto, mas é feia. Chama-se clearfix hack.</p>
+              <p>Boo. Existe uma maneira de corrigir isto, mas é feia. Chama-se clearfix hack. <br> Vamos tentar adicionar este novo CSS:</p>
 
-               <span>Vamos tentar adicionar este novo CSS:</span> 
-               <div class="melhor">
+               
+               <div class="exemplo_melhor">
                  <p>.porquinho2 { <br>
                     overflow: auto;<br>
                   }</p>  
                </div>              
 
-                <span>Agora vamos ver o que acontece:</span>
+                <span class="span2">Agora vamos ver o que acontece:</span>
               <div class="porquinho2">
                 <p><img src="_imagens/poquinhodaindia.png" alt="Imagem de um porquinho da India">Muito melhor!</p>
               </div>
