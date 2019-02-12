@@ -27,7 +27,7 @@
             
               <div class="porquinho">
                 
-                <p><img src="_imagens/poquinhodaindia.png" alt="Imagem de um porquinho da India" class="img_porquinho">Uh oh... esta imagem é mais alta que o elemento que a contem, e está a flutuar, então está a sair para fora do seu recipiente!</p>
+                <p><img class="img_porquinho" src="_imagens/poquinhodaindia.png" alt="Imagem de um porquinho da India" class="img_porquinho">Uh oh... esta imagem é mais alta que o elemento que a contem, e está a flutuar, então está a sair para fora do seu recipiente!</p>
               </div>
               <p>Boo. Existe uma maneira de corrigir isto, mas é feia. Chama-se clearfix hack. <br> Vamos tentar adicionar este novo CSS:</p>
 
@@ -40,17 +40,17 @@
 
                 <span class="span2">Agora vamos ver o que acontece:</span>
               <div class="porquinho2">
-                <p><img src="_imagens/poquinhodaindia.png" alt="Imagem de um porquinho da India">Muito melhor!</p>
+                <p><img class="img_porquinho2" src="_imagens/poquinhodaindia.png" alt="Imagem de um porquinho da India">Muito melhor!</p>
               </div>
-              <span>Isto funciona com browsers modernos. Se quiseres suportar IE6, vais querer adicionar o seguinte:</span>
-              <div class="melhor2">
+              <span class="span3">Isto funciona com browsers modernos.<br>Se quiseres suportar IE6, vais querer adicionar o seguinte:</span>
+              <div class="exemplo_melhor2">
                 <p>.clearfix { <br>
                     overflow: auto; <br>
                     zoom: 1; <br>
                   }</p>  
 
               </div>
-              <p>Existem browsers exóticos que podem necessitar atenção extra. O mundo de clearfixing é bastante assustador, mas esta solução simples funcionará para a grande maioria dos browsers de hoje em dia.</p>
+              <p >Existem browsers exóticos que podem necessitar atenção extra.<br>O mundo de clearfixing é bastante assustador, mas esta solução<br>simples funcionará para a grande maioria dos browsers de hoje em dia.</p>
 
               <div class="botao"><button>Anterior</button><button>Próximo</button></div>
 

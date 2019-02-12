@@ -3,7 +3,7 @@
                         /*  AREA DE TESTES */
      
  body {
-         margin-bottom: 120px;
+        
          box-sizing: border-box;
          
      }  
@@ -75,20 +75,55 @@ a:link {
 
 }
 .span2 {
+    display: block;
     text-align: left;
-    margin-left: 30%;
+    margin-top: 20px;
+    margin-left: 30%;  
+}
+.img_porquinho2 {
+    float: right;
     
 }
-
-
-      
-                    
+.porquinho2 { 
+    
+    width: 40%;
+    border: 2px solid blue;
+    display: flex;
+    margin-left: 30%;
+    margin-top: 20px;  
+    overflow: auto;
+    zoom: 1; 
+    }
+.span3 {
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+.exemplo_melhor2 {
+    width: 40%;
+    border: 2px solid rgba(255, 255, 255, .5);
+    background-color: black;
+    color: azure;
+    margin-left: 30%;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.exemplo_melhor2 p {
+    text-align: left;
+}    
+.botao {
+    clear: both;
+    margin-bottom: 30%;
+}  
+                   
 
                          /*  AREA DO RODAPE */
 footer#rodape {
         background-color: rgb(74, 74, 74); 
         margin: 0px;       
-        padding: 25px;
+        padding: 20px;
         color: rgba(0,0,0,1);
         text-shadow: 1px 1px 2px rgb(255,255,255);
         text-align: center;   
